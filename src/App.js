@@ -1,8 +1,10 @@
+import Calculadora from "./page/calculadora";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Teste</h1>
+      <Calculadora />
     </div>
   );
 }
