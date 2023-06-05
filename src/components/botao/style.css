@@ -1,0 +1,28 @@
+.botao {
+  font-size: 1em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.botao:active{
+  background: #cccc;
+}
+
+.botao.double{
+  grid-column: span 2;
+}
+
+.botao.triple{
+  grid-column: span 3;
+}
+
+.botao.operation {
+  background: #fa8231;
+  color: #ffffffe3;
+}
+
+.botao.operation:active {
+  background: #fa8231cc;
+  color: #ffffffe3;
+}
