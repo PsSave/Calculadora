@@ -3,6 +3,10 @@
   border: none;
   outline: none;
   cursor: pointer;
+
+  border-bottom: 1px solid #8b8b8b86;
+  border-right: 1px solid #8b8b8b86;
+
 }
 
 .botao:active{
